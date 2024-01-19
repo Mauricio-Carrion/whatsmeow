@@ -1,4 +1,4 @@
-module go.mau.fi/whatsmeow
+module github.com/Mauricio-Carrion/whatsmeow
 
 go 1.20
 
