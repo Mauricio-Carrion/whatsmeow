@@ -14,11 +14,11 @@ import (
 	"go.mau.fi/util/random"
 	"google.golang.org/protobuf/proto"
 
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/types/events"
-	"go.mau.fi/whatsmeow/util/gcmutil"
-	"go.mau.fi/whatsmeow/util/hkdfutil"
+	waProto "github.com/Mauricio-Carrion/whatsmeow/binary/proto"
+	"github.com/Mauricio-Carrion/whatsmeow/types"
+	"github.com/Mauricio-Carrion/whatsmeow/types/events"
+	"github.com/Mauricio-Carrion/whatsmeow/util/gcmutil"
+	"github.com/Mauricio-Carrion/whatsmeow/util/hkdfutil"
 )
 
 type MsgSecretType string
